@@ -8,7 +8,12 @@ public class TestObjectData implements java.io.Serializable {
 
     static final long serialVersionUID = 1L;
 
+
     public TestObjectData() {
+        enum Color {
+                RED, GREEN, ANY;
+            }  
+            private Color color;
     }
 
 }
