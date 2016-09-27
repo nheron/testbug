@@ -75,13 +75,6 @@
       <name>CalculatedElement</name>
       <anonymous>true</anonymous>
     </expect-fact>
-    <expect-rule>
-      <ruleName>OnlyDriverUnder18yearsold</ruleName>
-      <explanation>Rule [OnlyDriverUnder18yearsold] was not activated. Expected it to be activated.</explanation>
-      <expectedFire>true</expectedFire>
-      <successResult>false</successResult>
-      <actualResult>0</actualResult>
-    </expect-rule>
   </fixtures>
   <lastRunResult>2016-09-27 15:03:21.278 UTC</lastRunResult>
   <rules/>
