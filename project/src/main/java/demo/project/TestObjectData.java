@@ -10,7 +10,7 @@ public class TestObjectData implements java.io.Serializable {
 
 
     public TestObjectData() {
-        enum Color {
+       public  enum Color {
                 RED, GREEN, ANY;
             }  
             private Color color;
