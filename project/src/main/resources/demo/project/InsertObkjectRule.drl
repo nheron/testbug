@@ -1,2 +1,13 @@
 package demo.project;
+import demo.project.Color;
 
+rule "OnlyDriverUnder18yearsold"
+	dialect "java"
+
+	when
+	then
+	
+	TestObjectData oo = new TestObjectData();
+	oo.setColor (Color.RED);
+	insert( oo );
+end
