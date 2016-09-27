@@ -7,10 +7,8 @@ package demo.project;
 public class TestObjectData implements java.io.Serializable {
 
     static final long serialVersionUID = 1L;
-
-
- 
-       public enum Color {
+    
+     public enum Color {
        RED, GREEN, ANY;
      };
 
