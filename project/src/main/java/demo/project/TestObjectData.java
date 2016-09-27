@@ -9,7 +9,7 @@ public class TestObjectData implements java.io.Serializable {
     static final long serialVersionUID = 1L;
 
 
-    public TestObjectData() {
+ 
        public enum Color {
        RED, GREEN, ANY;
      };
@@ -23,6 +23,6 @@ public class TestObjectData implements java.io.Serializable {
      public void setColor(Color color){
          this.color = color;
      }  
-    }
+    
 
 }
