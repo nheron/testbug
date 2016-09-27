@@ -57,8 +57,8 @@
           <fieldName>doubleValue</fieldName>
           <expected>48.0</expected>
           <actualResult>48.0</actualResult>
-          <successResult>false</successResult>
-          <explanation>[CalculatedElement] field [doubleValue] was [48.0] expected [16.0].</explanation>
+          <successResult>true</successResult>
+          <explanation>[CalculatedElement] field [doubleValue] was [48.0].</explanation>
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
@@ -76,7 +76,7 @@
       <anonymous>true</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2016-09-27 15:03:21.278 UTC</lastRunResult>
+  <lastRunResult>2016-09-27 15:03:46.173 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>demo.calculate_insurance_amount</packageName>
