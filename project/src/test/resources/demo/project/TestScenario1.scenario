@@ -10,7 +10,7 @@
           <fieldName>color</fieldName>
           <expected>TestObjectData.Color.RED</expected>
           <operator>==</operator>
-          <nature>4</nature>
+          <nature>1</nature>
         </expect-field>
       </fieldValues>
       <name>TestObjectData</name>
