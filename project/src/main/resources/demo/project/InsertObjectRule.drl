@@ -2,10 +2,10 @@ package demo.project;
 
 
 rule "OnlyDriverUnder18yearsold"
-	dialect "mvel"
+	dialect "java"
 
 	when
-	    TestObjectData(color==TestObjectData.Color.GREEN)
+	   // TestObjectData(color==TestObjectData.Color.GREEN)
 	then
 	
 	TestObjectData oo = new TestObjectData();
