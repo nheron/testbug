@@ -3,12 +3,18 @@
   <maxRuleFirings>100000</maxRuleFirings>
   <globals/>
   <fixtures>
-    <execution-trace/>
+    <execution-trace>
+      <executionTimeResult>2</executionTimeResult>
+      <numberOfRulesFired>1</numberOfRulesFired>
+    </execution-trace>
     <expect-fact>
       <fieldValues>
         <expect-field>
           <fieldName>color</fieldName>
           <expected>TestObjectData.Color.RED</expected>
+          <actualResult>RED</actualResult>
+          <successResult>false</successResult>
+          <explanation>[TestObjectData] field [color] was [RED] expected [TestObjectData.Color.RED].</explanation>
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
@@ -17,6 +23,7 @@
       <anonymous>true</anonymous>
     </expect-fact>
   </fixtures>
+  <lastRunResult>2016-09-27 17:03:20.57 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>demo.project</packageName>
