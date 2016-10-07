@@ -4,7 +4,7 @@
   <globals/>
   <fixtures>
     <execution-trace>
-      <executionTimeResult>18</executionTimeResult>
+      <executionTimeResult>50</executionTimeResult>
       <numberOfRulesFired>1</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
@@ -12,18 +12,18 @@
         <expect-field>
           <fieldName>color</fieldName>
           <expected>TestObjectData.Color.RED</expected>
-          <actualResult>GREEN</actualResult>
-          <successResult>true</successResult>
-          <explanation>[TestObjectData] field [color] was [TestObjectData.Color.RED].</explanation>
+          <actualResult>RED</actualResult>
+          <successResult>false</successResult>
+          <explanation>[TestObjectData] field [color] was [RED] expected [TestObjectData.Color.RED].</explanation>
           <operator>==</operator>
-          <nature>4</nature>
+          <nature>1</nature>
         </expect-field>
       </fieldValues>
       <name>TestObjectData</name>
       <anonymous>true</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2016-10-07 07:58:58.603 UTC</lastRunResult>
+  <lastRunResult>2016-10-07 08:01:10.245 UTC</lastRunResult>
   <rules/>
   <inclusive>true</inclusive>
   <packageName>demo.project</packageName>
