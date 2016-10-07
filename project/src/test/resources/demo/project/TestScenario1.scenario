@@ -16,7 +16,7 @@
       <isModify>false</isModify>
     </fact-data>
     <execution-trace>
-      <executionTimeResult>19</executionTimeResult>
+      <executionTimeResult>18</executionTimeResult>
       <numberOfRulesFired>2</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
@@ -35,7 +35,7 @@
       <anonymous>true</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2016-10-07 07:47:11.965 UTC</lastRunResult>
+  <lastRunResult>2016-10-07 07:55:22.665 UTC</lastRunResult>
   <rules/>
   <inclusive>true</inclusive>
   <packageName>demo.project</packageName>
