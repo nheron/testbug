@@ -5,7 +5,7 @@ rule "OnlyDriverUnder18yearsold"
 	dialect "mvel"
 
 	when
-	   // TestObjectData(color==TestObjectData.Color.GREEN)
+	   TestObjectData(color==TestObjectData.Color.GREEN)
 	then
 	
 	TestObjectData oo = new TestObjectData();
