@@ -16,29 +16,17 @@
       <isModify>false</isModify>
     </fact-data>
     <execution-trace>
-      <executionTimeResult>16</executionTimeResult>
+      <executionTimeResult>17</executionTimeResult>
       <numberOfRulesFired>1</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
       <fieldValues>
         <expect-field>
           <fieldName>color</fieldName>
-          <expected>TestObjectData.Color.RED</expected>
-          <actualResult>GREEN</actualResult>
-          <successResult>true</successResult>
-          <explanation>[TestObjectData] field [color] was [TestObjectData.Color.RED].</explanation>
-          <operator>==</operator>
-          <nature>4</nature>
-        </expect-field>
-      </fieldValues>
-      <name>TestObjectData</name>
-      <anonymous>true</anonymous>
-    </expect-fact>
-    <expect-fact>
-      <fieldValues>
-        <expect-field>
-          <fieldName>color</fieldName>
           <expected>TestObjectData.Color.GREEN</expected>
+          <actualResult>RED</actualResult>
+          <successResult>true</successResult>
+          <explanation>[TestObjectData] field [color] was [TestObjectData.Color.GREEN].</explanation>
           <operator>==</operator>
           <nature>4</nature>
         </expect-field>
@@ -47,7 +35,7 @@
       <anonymous>true</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2016-09-27 17:59:16.206 UTC</lastRunResult>
+  <lastRunResult>2016-10-07 07:44:57.631 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>demo.project</packageName>
