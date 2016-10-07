@@ -1,0 +1,9 @@
+package demo.project;
+
+import java.lang.Number;
+
+rule "TestGuidedRule"
+	dialect "mvel"
+	when
+	then
+end
