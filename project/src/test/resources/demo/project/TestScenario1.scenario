@@ -4,7 +4,7 @@
   <globals/>
   <fixtures>
     <execution-trace>
-      <executionTimeResult>17</executionTimeResult>
+      <executionTimeResult>18</executionTimeResult>
       <numberOfRulesFired>1</numberOfRulesFired>
     </execution-trace>
     <expect-fact>
@@ -23,7 +23,7 @@
       <anonymous>true</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2016-10-07 07:58:22.251 UTC</lastRunResult>
+  <lastRunResult>2016-10-07 07:58:58.603 UTC</lastRunResult>
   <rules/>
   <inclusive>true</inclusive>
   <packageName>demo.project</packageName>
