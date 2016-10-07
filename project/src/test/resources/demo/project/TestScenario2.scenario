@@ -1,0 +1,40 @@
+<scenario>
+  <name>TestScenario1.scenario</name>
+  <maxRuleFirings>100000</maxRuleFirings>
+  <globals/>
+  <fixtures>
+    <execution-trace>
+      <executionTimeResult>16</executionTimeResult>
+      <numberOfRulesFired>1</numberOfRulesFired>
+    </execution-trace>
+    <expect-fact>
+      <fieldValues>
+        <expect-field>
+          <fieldName>color</fieldName>
+          <expected>TestObjectData.Color.RED</expected>
+          <actualResult>GREEN</actualResult>
+          <successResult>true</successResult>
+          <explanation>[TestObjectData] field [color] was [TestObjectData.Color.RED].</explanation>
+          <operator>==</operator>
+          <nature>4</nature>
+        </expect-field>
+      </fieldValues>
+      <name>TestObjectData</name>
+      <anonymous>true</anonymous>
+    </expect-fact>
+  </fixtures>
+  <lastRunResult>2016-09-27 17:59:16.206 UTC</lastRunResult>
+  <rules/>
+  <inclusive>false</inclusive>
+  <packageName>demo.project</packageName>
+  <imports>
+    <imports>
+      <org.drools.workbench.models.datamodel.imports.Import>
+        <type>demo.project.TestObjectData</type>
+      </org.drools.workbench.models.datamodel.imports.Import>
+    </imports>
+  </imports>
+  <ksessions>
+    <string>defaultKieSession</string>
+  </ksessions>
+</scenario>
