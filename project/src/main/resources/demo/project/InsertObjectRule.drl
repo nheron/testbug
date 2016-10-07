@@ -5,7 +5,7 @@ rule "InsertObjectRule"
 	dialect "mvel"
 
 	when
-	   // TestObjectData(color==TestObjectData.Color.GREEN)
+	 
 	then
 	
 	TestObjectData oo = new TestObjectData();
