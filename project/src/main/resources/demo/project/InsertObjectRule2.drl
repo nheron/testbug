@@ -1,0 +1,14 @@
+package demo.project;
+
+
+rule "OnlyDriverUnder18yearsold"
+	dialect "mvel"
+
+	when
+	   // TestObjectData(color==TestObjectData.Color.GREEN)
+	then
+	
+	TestObjectData oo = new TestObjectData();
+	oo.setColor (TestObjectData.Color.RED);
+	insert( oo );
+end
