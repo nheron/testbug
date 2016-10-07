@@ -1,7 +1,7 @@
 package demo.project;
 
 
-rule "OnlyDriverUnder18yearsold"
+rule "InsertObjectRule2"
 	dialect "mvel"
 
 	when
